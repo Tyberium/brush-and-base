@@ -5,15 +5,16 @@ alwaysApply: true
 
 # File Naming Conventions
 
-## Project directories — camelCase
+## Project directories — kebab-case
 
-Use camelCase for project and module folder names (starts lowercase, no hyphens or underscores).
+Use kebab-case for project, repo, and module folder names (lowercase words separated by hyphens).
 
 ```
-projects/flaskRestApi/
-course/advancedPython/
-devContainer/
-firebaseSeed/
+projects/flask-rest-api/
+course/advanced-python/
+dev-container/
+firebase-seed/
+the-crimson-codex/
 ```
 
 ## Files — snake_case
@@ -37,15 +38,15 @@ pipeline_health.tsx
 
 ## Python packages inside projects
 
-Project folder = camelCase. Importable Python package inside it = snake_case (PEP 8).
+Project folder = kebab-case. Importable Python package inside it = snake_case (PEP 8).
 
 ```
-projects/flaskRestApi/rest_api_demo/app.py
-projects/poetryPackage/poetrypackage/corepy.py
+projects/flask-rest-api/rest_api_demo/app.py
+projects/poetry-package/poetrypackage/corepy.py
 ```
 
 ## When creating new files
 
-- New project folder → camelCase
+- New project folder → kebab-case
 - New script, doc, config (unless tool-required) → snake_case
 - Rename non-conforming files when touching a repo
