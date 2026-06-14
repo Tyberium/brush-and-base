@@ -1,0 +1,51 @@
+---
+description: File and project naming conventions for all Tyberium repos
+alwaysApply: true
+---
+
+# File Naming Conventions
+
+## Project directories — camelCase
+
+Use camelCase for project and module folder names (starts lowercase, no hyphens or underscores).
+
+```
+projects/flaskRestApi/
+course/advancedPython/
+devContainer/
+firebaseSeed/
+```
+
+## Files — snake_case
+
+Use snake_case for all file names (lowercase words separated by underscores).
+
+```
+write_a_function.py
+thousand_sons.md
+create_cv_reader.sh
+pipeline_health.tsx
+```
+
+## Exceptions (do not rename)
+
+- **Python**: `__init__.py`, `__main__.py`
+- **Standard docs**: `README.md`, `LICENSE`, `LICENSE.txt`
+- **Tool-required names**: `Dockerfile`, `docker-compose.yml`, `justfile`, `Cargo.toml`, `pyproject.toml`, `package.json`, `package-lock.json`, `poetry.lock`, `tsconfig.json`, `vite.config.ts`, `index.html`, `setup.py`, `setup.cfg`
+- **Dotfiles and tool dirs**: `.gitignore`, `.env.example`, `.cursor/`, `.github/`, `.devcontainer/`
+- **Framework dirs**: `node_modules/`, `target/`, `templates/`, `static/`, `tests/`
+
+## Python packages inside projects
+
+Project folder = camelCase. Importable Python package inside it = snake_case (PEP 8).
+
+```
+projects/flaskRestApi/rest_api_demo/app.py
+projects/poetryPackage/poetrypackage/corepy.py
+```
+
+## When creating new files
+
+- New project folder → camelCase
+- New script, doc, config (unless tool-required) → snake_case
+- Rename non-conforming files when touching a repo
