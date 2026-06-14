@@ -13,9 +13,9 @@ related: false
 
 *Data Engineer by day. Warhammer nerd by night.*
 
-This site exists so I remember what pot of paint I happened to stumble on that evening — giving me at least a Guardsman's chance of using the same paint next time.
+The lid goes on and the recipe dissapears into the Warp. I write it down here so Future Me has something to check, though I'll probably still reach for whatever pot is nearest.
 
-Have a look around, enjoy, and if you want to contribute find me on [GitHub](https://github.com/Tyberium).
+Come on in, have a look around and if you fancy adding something, find me over on [GitHub](https://github.com/Tyberium).
 
 ## Techniques
 
