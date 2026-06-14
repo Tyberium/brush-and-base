@@ -7,8 +7,6 @@ title: Mutalith Vortex Beast
 
 Handwritten title: **Matalith**
 
-![Mutalith recipe]({{ '/assets/photos/mutalith_vortex_beast_14062026.jpg' | relative_url }})
-
 ## Transcription
 
 ### Blue armour
@@ -29,3 +27,7 @@ Handwritten title: **Matalith**
 
 - Glaze Naggaroth Night
 - Glaze Naggaroth Night + Nuln Oil
+
+## Notes
+
+- *No model photo yet — recipe only*

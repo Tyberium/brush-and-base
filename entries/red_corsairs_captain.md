@@ -5,11 +5,7 @@ title: Red Corsairs Bladeguard Captain
 
 # Red Corsairs Bladeguard Captain
 
-Same model — diary calls it Captain; it's a Bladeguard Veteran on the table.
-
-![Finished model]({{ '/assets/photos/red_corsairs_bladeguard_11062026.jpg' | relative_url }})
-
-![Diary recipe]({{ '/assets/photos/red_corsairs_captain_14062026.jpg' | relative_url }})
+![Red Corsairs Bladeguard Captain]({{ '/assets/photos/red_corsairs_captain_11062026.jpg' | relative_url }})
 
 ## Transcription
 

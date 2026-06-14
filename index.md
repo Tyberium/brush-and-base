@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-Paint-night notes — recipes, colours, and photos from the hobby desk. Mostly Citadel, Vallejo, Army Painter, Two Thin Coats, and Pro Acryl.
+Paint-night notes and finished mini photos from the hobby desk. **Diary scans stay offline** — only model shots go on the site.
 
 ## Techniques
 
@@ -39,7 +39,7 @@ Paint-night notes — recipes, colours, and photos from the hobby desk. Mostly C
 
 ## Paint night workflow
 
-1. Photo the minis and diary page
+1. Photo the minis (for the site) and diary page (keep offline)
 2. Add or update a file in `entries/`
-3. Drop photos in `assets/photos/`
+3. Drop **model photos only** in `assets/photos/` — `{entry_slug}_{DDMMYYYY}.jpg`
 4. Commit, push — site rebuilds in a minute or two

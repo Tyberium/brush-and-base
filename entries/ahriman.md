@@ -5,9 +5,7 @@ title: Ahriman
 
 # Ahriman
 
-![Finished — Ahriman on disc]({{ '/assets/photos/ahriman_11062026.jpg' | relative_url }})
-
-![Diary recipe]({{ '/assets/photos/ahriman_14062026.jpg' | relative_url }})
+![Ahriman]({{ '/assets/photos/ahriman_11062026.jpg' | relative_url }})
 
 ## Transcription
 

@@ -5,9 +5,7 @@ title: Magnus
 
 # Magnus
 
-![Finished — Magnus]({{ '/assets/photos/magnus_21052026.jpg' | relative_url }})
-
-![Diary recipe]({{ '/assets/photos/magnus_14062026.jpg' | relative_url }})
+![Magnus]({{ '/assets/photos/magnus_21052026.jpg' | relative_url }})
 
 ## Transcription
 

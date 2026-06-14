@@ -5,8 +5,6 @@ title: Scarab Occult Terminators
 
 # Scarab Occult Terminators
 
-![Scarab Occult Terminators recipe]({{ '/assets/photos/scarab_occult_terminators_14062026.jpg' | relative_url }})
-
 ## Transcription
 
 ### Gold
@@ -22,3 +20,4 @@ title: Scarab Occult Terminators
 ## Notes
 
 - HL = highlight
+- *No model photo yet — recipe only*

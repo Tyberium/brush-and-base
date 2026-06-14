@@ -5,9 +5,7 @@ title: Tzaangor Enlightened
 
 # Tzaangor Enlightened
 
-![Finished — Tzaangor Enlightened on discs]({{ '/assets/photos/tzaangor_enlightened_08052026.jpg' | relative_url }})
-
-![Diary recipe]({{ '/assets/photos/tzaangor_enlightened_14062026.jpg' | relative_url }})
+![Tzaangor Enlightened on discs]({{ '/assets/photos/tzaangor_enlightened_08052026.jpg' | relative_url }})
 
 ## Transcription
 

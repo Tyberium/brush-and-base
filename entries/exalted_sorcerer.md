@@ -7,9 +7,6 @@ title: Exalted Sorcerer
 
 Two diary pages for the same model — Dave spelling on page 1.
 
-![Estraubos Scourge — Dave spelling]({{ '/assets/photos/exalted_sorcerer_14062026_01.jpg' | relative_url }})
-![Exhalted Sorceror]({{ '/assets/photos/exalted_sorcerer_14062026_02.jpg' | relative_url }})
-
 ## Page 1 — "Estraubos Scourge"
 
 Dave spelling for **Exalted Sorcerer**.
@@ -30,4 +27,4 @@ Dave spelling for **Exalted Sorcerer**.
 
 - HL = highlight; DHL = dot highlight
 - "Gene/Palid Witch" in the diary = Genestealer Purple + Pallid Wych Flesh
-- Page 1 ends on Vallejo ivory; page 2 adds a dot-highlight finish with Pallid Wych Flesh
+- *No model photo yet — recipe only*

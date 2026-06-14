@@ -5,8 +5,6 @@ title: Airbrush priming
 
 # Airbrush priming
 
-![Priming recipe]({{ '/assets/photos/airbrush_priming_14062026.jpg' | relative_url }})
-
 ## Recipe
 
 - **Primer:** Vallejo Black Primer
@@ -21,4 +19,4 @@ title: Airbrush priming
 ## Notes
 
 - Thinner / flow improver = the three-product setup (Medium, Thinner, Flow Aid) — see [Snot Goblin Terrain]({{ '/entries/snot_goblin_terrain.html' | relative_url }}) notes
-- "Black" crossed out next to Badger 360 on the diary page — needle type kept as silver needle
+- Diary scan kept offline — recipe transcribed here only

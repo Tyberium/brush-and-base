@@ -7,9 +7,6 @@ title: Rubric Marine
 
 Two diary pages — armour and trim split across spreads.
 
-![Rubric Marine — page 1]({{ '/assets/photos/rubric_marine_14062026_01.jpg' | relative_url }})
-![Rubric Marine — page 2]({{ '/assets/photos/rubric_marine_14062026_02.jpg' | relative_url }})
-
 ## Page 1
 
 - **Primer:** white primer
@@ -40,3 +37,7 @@ Two diary pages — armour and trim split across spreads.
 - Leadbelcher
 - Nuln Oil
 - Stormhost Silver
+
+## Notes
+
+- *No model photo yet — recipe only*
