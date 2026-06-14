@@ -5,7 +5,7 @@ title: Airbrush priming
 
 # Airbrush priming
 
-![Priming recipe]({{ '/assets/photos/IMG_20260614_112157089.jpg' | relative_url }})
+![Priming recipe]({{ '/assets/photos/airbrush_priming_14062026.jpg' | relative_url }})
 
 ## Recipe
 

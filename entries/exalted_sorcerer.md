@@ -7,8 +7,8 @@ title: Exalted Sorcerer
 
 Two diary pages for the same model — Dave spelling on page 1.
 
-![Estraubos Scourge — Dave spelling]({{ '/assets/photos/IMG_20260614_112232549_HDR.jpg' | relative_url }})
-![Exhalted Sorceror]({{ '/assets/photos/IMG_20260614_112235120_HDR.jpg' | relative_url }})
+![Estraubos Scourge — Dave spelling]({{ '/assets/photos/exalted_sorcerer_14062026_01.jpg' | relative_url }})
+![Exhalted Sorceror]({{ '/assets/photos/exalted_sorcerer_14062026_02.jpg' | relative_url }})
 
 ## Page 1 — "Estraubos Scourge"
 

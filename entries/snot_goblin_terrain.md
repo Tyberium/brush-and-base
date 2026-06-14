@@ -5,8 +5,8 @@ title: Snot Goblin Terrain
 
 # Snot Goblin Terrain
 
-![Snot Goblin Terrain — page 1]({{ '/assets/photos/IMG_20260614_112246392_HDR.jpg' | relative_url }})
-![Snot Goblin Terrain — page 2]({{ '/assets/photos/IMG_20260614_112248257_HDR.jpg' | relative_url }})
+![Snot Goblin Terrain — page 1]({{ '/assets/photos/snot_goblin_terrain_14062026_01.jpg' | relative_url }})
+![Snot Goblin Terrain — page 2]({{ '/assets/photos/snot_goblin_terrain_14062026_02.jpg' | relative_url }})
 
 ## Transcription
 

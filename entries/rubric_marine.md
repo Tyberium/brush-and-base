@@ -7,8 +7,8 @@ title: Rubric Marine
 
 Two diary pages — armour and trim split across spreads.
 
-![Rubric Marine — page 1]({{ '/assets/photos/IMG_20260614_112210484.jpg' | relative_url }})
-![Rubric Marine — page 2]({{ '/assets/photos/IMG_20260614_112220427.jpg' | relative_url }})
+![Rubric Marine — page 1]({{ '/assets/photos/rubric_marine_14062026_01.jpg' | relative_url }})
+![Rubric Marine — page 2]({{ '/assets/photos/rubric_marine_14062026_02.jpg' | relative_url }})
 
 ## Page 1
 

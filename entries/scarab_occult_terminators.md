@@ -5,7 +5,7 @@ title: Scarab Occult Terminators
 
 # Scarab Occult Terminators
 
-![Scarab Occult Terminators recipe]({{ '/assets/photos/IMG_20260614_112214916.jpg' | relative_url }})
+![Scarab Occult Terminators recipe]({{ '/assets/photos/scarab_occult_terminators_14062026.jpg' | relative_url }})
 
 ## Transcription
 

@@ -7,7 +7,7 @@ title: Mutalith Vortex Beast
 
 Handwritten title: **Matalith**
 
-![Mutalith recipe]({{ '/assets/photos/IMG_20260614_112203646.jpg' | relative_url }})
+![Mutalith recipe]({{ '/assets/photos/mutalith_vortex_beast_14062026.jpg' | relative_url }})
 
 ## Transcription
 

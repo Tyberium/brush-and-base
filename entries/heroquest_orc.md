@@ -5,7 +5,7 @@ title: HeroQuest Orc
 
 # HeroQuest Orc
 
-![HeroQuest Orc recipe]({{ '/assets/photos/IMG_20260614_112224108.jpg' | relative_url }})
+![HeroQuest Orc recipe]({{ '/assets/photos/heroquest_orc_14062026.jpg' | relative_url }})
 
 ## Transcription
 

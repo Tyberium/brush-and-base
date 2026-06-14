@@ -1,11 +1,15 @@
 ---
 layout: default
-title: Red Corsairs Captain
+title: Red Corsairs Bladeguard Captain
 ---
 
-# Red Corsairs Captain
+# Red Corsairs Bladeguard Captain
 
-![Red Corsairs Captain recipe]({{ '/assets/photos/IMG_20260614_112258799.jpg' | relative_url }})
+Same model — diary calls it Captain; it's a Bladeguard Veteran on the table.
+
+![Finished model]({{ '/assets/photos/red_corsairs_bladeguard_11062026.jpg' | relative_url }})
+
+![Diary recipe]({{ '/assets/photos/red_corsairs_captain_14062026.jpg' | relative_url }})
 
 ## Transcription
 
@@ -50,3 +54,6 @@ title: Red Corsairs Captain
 
 - Faust Blue and Legendary Red — Two Thin Coats
 - Strong Tone / Strong Skin Shade — Army Painter washes
+- Plasma pistol OSL (light blue glow on armour)
+- Green lens glow
+- Storm shield with blue glow lines and gold skull

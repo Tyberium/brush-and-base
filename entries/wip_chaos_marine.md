@@ -7,7 +7,7 @@ title: WIP — Chaos Marine
 
 Unpainted / assembled — recipe to follow.
 
-![WIP Chaos Marine]({{ '/assets/photos/IMG_20260607_210600143.jpg' | relative_url }})
+![WIP Chaos Marine]({{ '/assets/photos/wip_chaos_marine_07062026.jpg' | relative_url }})
 
 ## Notes
 
