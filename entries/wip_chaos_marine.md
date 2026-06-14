@@ -9,8 +9,6 @@ author_profile: false
 read_time: false
 share: false
 related: false
-categories:
-  - Chaos
 ---
 
 Unpainted / assembled — recipe to follow.

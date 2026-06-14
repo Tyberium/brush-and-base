@@ -18,5 +18,5 @@ title: Airbrush priming
 
 ## Notes
 
-- Thinner / flow improver = the three-product setup (Medium, Thinner, Flow Aid) — see [Snot Goblin Terrain]({{ '/entries/snot_goblin_terrain.html' | relative_url }}) notes
+- Thinner / flow improver = the three-product setup (Medium, Thinner, Flow Aid) — see [Snot Goblin Terrain]({{ '/entries/snot_goblin_terrain/' | relative_url }}) notes
 - Diary scan kept offline — recipe transcribed here only

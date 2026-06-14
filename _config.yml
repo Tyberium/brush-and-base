@@ -13,6 +13,7 @@ plugins:
   - jekyll-seo-tag
 
 markdown: kramdown
+permalink: pretty
 
 footer:
   links:
