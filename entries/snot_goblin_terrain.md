@@ -26,4 +26,4 @@ title: Snot Goblin Terrain
 - Pallid Bone — Army Painter Speedpaint
 - Strong Skin Shade — Army Painter wash
 - Smokey Ink — Vallejo Game Ink
-- **Thinner naming:** Dave keeps three separate products — Airbrush Medium (often called "thinner" informally), Airbrush Thinner, and Airbrush Flow Aid. The terrain mix above isn't fussy about which; the **primer recipe** (not yet photographed) uses a mix of all three.
+- **Thinner naming:** Dave keeps three separate products — Airbrush Medium (often called "thinner" informally), Airbrush Thinner, and Airbrush Flow Aid. The terrain mix above isn't fussy about which; see [Airbrush priming]({{ '/entries/airbrush_priming.html' | relative_url }}) for the full primer mix.
