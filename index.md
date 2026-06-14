@@ -13,7 +13,7 @@ related: false
 
 *Data Engineer by day. Warhammer nerd by night.*
 
-This site exists so I remember what pot of paint I happened to stumble on that evening — giving me at least a Nurglings chance of using the same paint next time.
+This site exists so I remember what pot of paint I happened to stumble on that evening — giving me at least a Guardsman's chance of using the same paint next time.
 
 Have a look around, enjoy, and if you want to contribute find me on [GitHub](https://github.com/Tyberium).
 
