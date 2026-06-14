@@ -1,13 +1,19 @@
 ---
-layout: default
+layout: single
 title: WIP — Chaos Marine
+header:
+  overlay_image: /assets/photos/wip_chaos_marine_07062026.jpg
+  overlay_filter: 0.4
+  caption: "Work in progress"
+author_profile: false
+read_time: false
+share: false
+related: false
+categories:
+  - Chaos
 ---
 
-# WIP — Chaos Marine
-
 Unpainted / assembled — recipe to follow.
-
-![WIP Chaos Marine]({{ '/assets/photos/wip_chaos_marine_07062026.jpg' | relative_url }})
 
 ## Notes
 

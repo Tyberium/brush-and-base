@@ -1,11 +1,17 @@
 ---
-layout: default
+layout: single
 title: Red Corsairs Bladeguard Captain
+header:
+  overlay_image: /assets/photos/red_corsairs_captain_11062026.jpg
+  overlay_filter: 0.4
+  caption: "Red Corsairs / Chaos"
+author_profile: false
+read_time: false
+share: false
+related: false
+categories:
+  - Red Corsairs
 ---
-
-# Red Corsairs Bladeguard Captain
-
-![Red Corsairs Bladeguard Captain]({{ '/assets/photos/red_corsairs_captain_11062026.jpg' | relative_url }})
 
 ## Transcription
 

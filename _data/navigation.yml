@@ -1,0 +1,11 @@
+main:
+  - title: Home
+    url: /
+  - title: Ahriman
+    url: /entries/ahriman/
+  - title: Magnus
+    url: /entries/magnus/
+  - title: Tzaangor
+    url: /entries/tzaangor_enlightened/
+  - title: Red Corsairs
+    url: /entries/red_corsairs_captain/

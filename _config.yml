@@ -1,15 +1,35 @@
 title: Brush & Base
-description: Paint-night notes — recipes, colours, and photos from the hobby desk.
+subtitle: Paint-night notes from the hobby desk
+description: Finished mini photos and transcribed paint recipes.
 url: https://tyberium.github.io
 baseurl: /brush-and-base
 
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: mmistakes/minimal-mistakes@4.28.0
+minimal_mistakes_skin: dark
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-seo-tag
 
 markdown: kramdown
+
+footer:
+  links:
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/Tyberium/brush-and-base
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      share: false
+      related: false
 
 exclude:
   - Gemfile

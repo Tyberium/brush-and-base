@@ -1,11 +1,17 @@
 ---
-layout: default
+layout: single
 title: Magnus
+header:
+  overlay_image: /assets/photos/magnus_21052026.jpg
+  overlay_filter: 0.4
+  caption: "Thousand Sons"
+author_profile: false
+read_time: false
+share: false
+related: false
+categories:
+  - Thousand Sons
 ---
-
-# Magnus
-
-![Magnus]({{ '/assets/photos/magnus_21052026.jpg' | relative_url }})
 
 ## Transcription
 

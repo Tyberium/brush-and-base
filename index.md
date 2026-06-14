@@ -1,9 +1,17 @@
 ---
-layout: default
-title: Home
+layout: single
+title: Brush & Base
+header:
+  overlay_image: /assets/photos/tzaangor_enlightened_08052026.jpg
+  overlay_filter: 0.5
+  caption: "Paint-night notes from the hobby desk"
+author_profile: false
+read_time: false
+share: false
+related: false
 ---
 
-Paint-night notes and finished mini photos from the hobby desk. **Diary scans stay offline** — only model shots go on the site.
+**Diary scans stay offline** — only model shots go on the site.
 
 ## Techniques
 
