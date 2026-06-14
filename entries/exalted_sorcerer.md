@@ -1,13 +1,25 @@
+---
+layout: default
+title: Exalted Sorcerer
+---
+
 # Exalted Sorcerer
 
-De spelling for **Exalted Sorcerer**.
+Two diary pages for the same model — Dave spelling on page 1.
+
+![Estraubos Scourge — Dave spelling]({{ '/assets/photos/IMG_20260614_112232549_HDR.jpg' | relative_url }})
+![Exhalted Sorceror]({{ '/assets/photos/IMG_20260614_112235120_HDR.jpg' | relative_url }})
+
+## Page 1 — "Estraubos Scourge"
+
+Dave spelling for **Exalted Sorcerer**.
 
 - **Skin — base:** Dark Purple
 - **HL:** Genestealer Purple
 - **HL:** Genestealer Purple with some Pallid Wych Flesh
 - **HL:** 70.918 (Vallejo Model Color Ivory)
 
-## "Exhalted Sorcerer 2
+## Page 2 — "Exhalted Sorceror"
 
 - **Skin — base:** Dark Purple
 - **HL:** Genestealer Purple

@@ -1,6 +1,11 @@
+---
+layout: default
+title: Tzaangor Enlightened
+---
+
 # Tzaangor Enlightened
 
-![Tzaangor Enlightened recipe](../IMG_20260614_112253896.jpg)
+![Tzaangor Enlightened recipe]({{ '/assets/photos/IMG_20260614_112253896.jpg' | relative_url }})
 
 ## Transcription
 
@@ -8,12 +13,12 @@
 
 - Black primer
 - Warp fire — Stegadon Scale Green
-- Jade —  Moot Green (?)
+- Jade — Vallejo Moot Green (?)
 - Warped Yellow
 
 ### Gold
 
--  Glorious Gold
+- Vallejo Glorious Gold
 - Dark Oak flesh
 - Renaissance Gold (something crossed out before this)
 - White Gold
@@ -28,7 +33,7 @@
 ### Blue armour (Thousand Sons)
 
 - TSons Blue + Drakenhof
--  Blue Green
+- Vallejo Blue Green
 - Ray Gun Glow
 - Ghost Green
 
@@ -45,7 +50,6 @@
 
 ## Notes
 
--  = Vallejo
 - TSons Blue = Thousand Sons / Citadel TSons paint
 - "Stegagon" in the diary = Stegadon Scale Green
 - "Ulthua" = Ulthuan Grey

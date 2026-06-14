@@ -1,6 +1,11 @@
+---
+layout: default
+title: Red Corsairs Captain
+---
+
 # Red Corsairs Captain
 
-![Red Corsairs Captain recipe](../IMG_20260614_112258799.jpg)
+![Red Corsairs Captain recipe]({{ '/assets/photos/IMG_20260614_112258799.jpg' | relative_url }})
 
 ## Transcription
 

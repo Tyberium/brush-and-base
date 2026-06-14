@@ -1,6 +1,11 @@
+---
+layout: default
+title: Ahriman
+---
+
 # Ahriman
 
-![Ahriman recipe](../IMG_20260614_112239036.jpg)
+![Ahriman recipe]({{ '/assets/photos/IMG_20260614_112239036.jpg' | relative_url }})
 
 ## Transcription
 

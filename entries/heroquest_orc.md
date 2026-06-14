@@ -1,6 +1,11 @@
+---
+layout: default
+title: HeroQuest Orc
+---
+
 # HeroQuest Orc
 
-![HeroQuest Orc recipe](../IMG_20260614_112224108.jpg)
+![HeroQuest Orc recipe]({{ '/assets/photos/IMG_20260614_112224108.jpg' | relative_url }})
 
 ## Transcription
 

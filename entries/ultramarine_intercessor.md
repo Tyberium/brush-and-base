@@ -1,3 +1,8 @@
+---
+layout: default
+title: Ultramarine Intercessor
+---
+
 # Ultramarine Intercessor
 
 First model — typed notes from the original README.
