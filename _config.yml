@@ -36,6 +36,8 @@ defaults:
       type: pages
     values:
       layout: entry
+      classes:
+        - wide
       author_profile: false
       read_time: false
       share: false

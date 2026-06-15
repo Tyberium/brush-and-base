@@ -1,9 +1,20 @@
 ---
+layout: entry
 title: Magnus
 faction: thousand_sons
 progress:
+  - photo: /assets/photos/magnus_17012026_01.jpg
+    note: Red skin base — sub-assemblies on clips
+  - photo: /assets/photos/magnus_15052026_01.jpg
+    note: Silver thigh armour and staff — pink base started
+  - photo: /assets/photos/magnus_15052026_02.jpg
+    note: Horns ivory, hair Royal Purple — detail pass
+  - photo: /assets/photos/magnus_21052026_01.jpg
+    note: Blue loincloth and silver panels — warp glow on right arm
+  - photo: /assets/photos/magnus_21052026_02.jpg
+    note: Desk shot with Thousand Sons Rhino
   - photo: /assets/photos/magnus_21052026.jpg
-    note: Finished model
+    note: Finished model — staff, tattoos, and base
 ---
 
 ## Transcription
