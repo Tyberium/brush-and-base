@@ -1,6 +1,6 @@
 ---
-layout: single
 title: HeroQuest Orc
+faction: heroquest
 ---
 
 # HeroQuest Orc

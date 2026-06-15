@@ -1,6 +1,6 @@
 ---
-layout: single
 title: Scarab Occult Terminators
+faction: thousand_sons
 ---
 
 # Scarab Occult Terminators

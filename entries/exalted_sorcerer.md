@@ -1,6 +1,6 @@
 ---
-layout: single
 title: Exalted Sorcerer
+faction: thousand_sons
 ---
 
 # Exalted Sorcerer

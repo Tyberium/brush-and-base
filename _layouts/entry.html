@@ -1,0 +1,24 @@
+---
+layout: single
+---
+
+<div class="entry-layout">
+  {% include entry_progress.html %}
+
+  <div class="entry-recipe">
+    {{ content }}
+  </div>
+</div>
+
+{% if page.progress and page.progress.size > 0 %}
+  {% assign finished_step = page.progress | last %}
+  {% if finished_step.photo %}
+    <figure class="entry-finished">
+      <img
+        src="{{ finished_step.photo | relative_url }}"
+        alt="Finished — {{ page.title }}"
+        loading="lazy">
+      <figcaption>Finished</figcaption>
+    </figure>
+  {% endif %}
+{% endif %}

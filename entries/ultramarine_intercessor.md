@@ -1,6 +1,6 @@
 ---
-layout: single
 title: Ultramarine Intercessor
+faction: ultramarines
 ---
 
 # Ultramarine Intercessor

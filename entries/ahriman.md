@@ -1,14 +1,9 @@
 ---
-layout: single
 title: Ahriman
-header:
-  overlay_image: /assets/photos/ahriman_11062026.jpg
-  overlay_filter: 0.4
-  caption: "Thousand Sons"
-author_profile: false
-read_time: false
-share: false
-related: false
+faction: thousand_sons
+progress:
+  - photo: /assets/photos/ahriman_11062026.jpg
+    note: Finished model
 ---
 
 ## Transcription

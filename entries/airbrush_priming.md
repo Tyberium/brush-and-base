@@ -1,6 +1,6 @@
 ---
-layout: single
 title: Airbrush priming
+faction: general
 ---
 
 # Airbrush priming

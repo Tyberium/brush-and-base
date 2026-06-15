@@ -1,6 +1,6 @@
 ---
-layout: single
 title: Snot Goblin Terrain
+faction: terrain
 ---
 
 # Snot Goblin Terrain

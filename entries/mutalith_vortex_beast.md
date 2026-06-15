@@ -1,6 +1,6 @@
 ---
-layout: single
 title: Mutalith Vortex Beast
+faction: thousand_sons
 ---
 
 # Mutalith Vortex Beast

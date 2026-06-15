@@ -1,0 +1,111 @@
+/* Entry pages: progress sidebar + recipe column */
+
+.entry-layout {
+  display: grid;
+  grid-template-columns: minmax(12rem, 30%) 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.entry-progress {
+  position: sticky;
+  top: 2em;
+  max-height: calc(100vh - 4em);
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.entry-progress__heading {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.entry-progress__step {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border-color, rgba(128, 128, 128, 0.25));
+
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+}
+
+.entry-progress__photo {
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  height: auto;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+}
+
+.entry-progress__date {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.8rem;
+  opacity: 0.65;
+}
+
+.entry-progress__note {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.entry-progress__empty {
+  margin: 0;
+  font-size: 0.95rem;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.entry-recipe {
+  min-width: 0;
+}
+
+.entry-finished {
+  margin: 2.5rem auto 0;
+  max-width: 56rem;
+  text-align: center;
+
+  img {
+    display: block;
+    width: 100%;
+    max-height: 85vh;
+    margin: 0 auto;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+
+  figcaption {
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    opacity: 0.65;
+  }
+}
+
+@media (max-width: 64em) {
+  .entry-layout {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .entry-progress {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
+  }
+
+  .entry-progress__photo {
+    max-width: 14rem;
+  }
+}

@@ -1,14 +1,9 @@
 ---
-layout: single
 title: Tzaangor Enlightened
-header:
-  overlay_image: /assets/photos/tzaangor_enlightened_08052026.jpg
-  overlay_filter: 0.4
-  caption: "Thousand Sons"
-author_profile: false
-read_time: false
-share: false
-related: false
+faction: thousand_sons
+progress:
+  - photo: /assets/photos/tzaangor_enlightened_08052026.jpg
+    note: Finished model
 ---
 
 ## Transcription

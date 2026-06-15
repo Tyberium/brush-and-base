@@ -1,6 +1,6 @@
 ---
-layout: single
 title: Rubric Marine
+faction: thousand_sons
 ---
 
 # Rubric Marine

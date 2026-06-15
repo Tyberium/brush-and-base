@@ -1,0 +1,69 @@
+{% assign locale = include.locale | default: site.locale %}
+
+{% assign hero_overlay_image = page.header.overlay_image %}
+{% assign hero_overlay_color = page.header.overlay_color %}
+{% assign hero_overlay_filter = page.header.overlay_filter %}
+{% assign hero_caption = page.header.caption %}
+
+{% if page.faction %}
+  {% assign faction = site.data.factions[page.faction] %}
+  {% if faction %}
+    {% assign hero_overlay_image = faction.banner %}
+    {% assign hero_overlay_filter = faction.overlay_filter | default: 0.45 %}
+    {% assign hero_caption = faction.name %}
+  {% endif %}
+{% endif %}
+
+{% capture overlay_img_path %}{{ hero_overlay_image | relative_url }}{% endcapture %}
+
+{% if hero_overlay_filter contains "gradient" %}
+  {% capture overlay_filter %}{{ hero_overlay_filter }}{% endcapture %}
+{% elsif hero_overlay_filter contains "rgba" %}
+  {% capture overlay_filter %}{{ hero_overlay_filter }}{% endcapture %}
+  {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% elsif hero_overlay_filter %}
+  {% capture overlay_filter %}rgba(0, 0, 0, {{ hero_overlay_filter }}){% endcapture %}
+  {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% endif %}
+
+{% if page.header.image_description %}
+  {% assign image_description = page.header.image_description %}
+{% else %}
+  {% assign image_description = page.title %}
+{% endif %}
+
+{% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
+
+<div class="page__hero{% if page.header.overlay_color or hero_overlay_image %}--overlay{% endif %}"
+  style="{% if hero_overlay_color %}background-color: {{ hero_overlay_color }};{% endif %} {% if hero_overlay_image %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+>
+  {% if hero_overlay_color or hero_overlay_image %}
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        {% if paginator and site.paginate_show_page_num %}
+          {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
+        {% else %}
+          {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+        {% endif %}
+      </h1>
+      {% if page.tagline %}
+        <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
+        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% endif %}
+      {% include page__meta.html locale=locale %}
+      {% if page.header.actions %}
+        <p class="page__meta">
+          {% for action in page.header.actions %}
+            <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[locale].more_label | default: "Learn More" }}</a>
+          {% endfor %}
+        </p>
+      {% endif %}
+    </div>
+  {% else %}
+    <img src="{{ hero_overlay_image | relative_url }}" alt="{{ image_description }}" itemprop="image">
+  {% endif %}
+  {% if hero_caption %}
+    <span class="page__hero-caption">{{ hero_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+  {% endif %}
+</div>

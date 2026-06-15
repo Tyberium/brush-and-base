@@ -31,6 +31,15 @@ defaults:
       read_time: false
       share: false
       related: false
+  - scope:
+      path: "entries"
+      type: pages
+    values:
+      layout: entry
+      author_profile: false
+      read_time: false
+      share: false
+      related: false
 
 exclude:
   - Gemfile

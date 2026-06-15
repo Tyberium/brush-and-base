@@ -1,0 +1,27 @@
+<aside class="entry-progress" aria-label="Paint progress">
+  <h2 class="entry-progress__heading">Progress</h2>
+
+  {% if page.progress and page.progress.size > 0 %}
+    {% for step in page.progress %}
+      <div class="entry-progress__step">
+        {% if step.photo %}
+          <img
+            class="entry-progress__photo"
+            src="{{ step.photo | relative_url }}"
+            alt="{% if step.note %}{{ step.note }}{% else %}Progress photo{% endif %}"
+            loading="lazy"
+            width="320"
+            height="320">
+        {% endif %}
+        {% if step.date %}
+          <time class="entry-progress__date" datetime="{{ step.date }}">{{ step.date }}</time>
+        {% endif %}
+        {% if step.note %}
+          <p class="entry-progress__note">{{ step.note }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  {% else %}
+    <p class="entry-progress__empty">No progress photos yet</p>
+  {% endif %}
+</aside>

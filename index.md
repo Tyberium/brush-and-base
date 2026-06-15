@@ -13,7 +13,9 @@ related: false
 
 *Data Engineer by day. Warhammer nerd by night.*
 
-The lid goes on and the recipe disappears into the Warp. I write it down here so Future Me has something to check, though I'll probably still reach for whatever pot is nearest.
+The paint lid goes on and the recipe disappears into the Warp. 
+
+I write it down here so Me Of the "Not So Far Future" has something to check - though I'll probably still reach for whatever pot is nearest.
 
 Have a look around, enjoy, and if you want to contribute find me on [GitHub](https://github.com/Tyberium).
 

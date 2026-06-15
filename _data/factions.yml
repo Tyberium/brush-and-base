@@ -1,0 +1,36 @@
+# Faction banners — replace SVG placeholders in assets/banners/ with art when ready.
+
+thousand_sons:
+  name: Thousand Sons
+  banner: /assets/banners/thousand_sons.svg
+  overlay_filter: 0.45
+
+red_corsairs:
+  name: Red Corsairs
+  banner: /assets/banners/red_corsairs.svg
+  overlay_filter: 0.45
+
+ultramarines:
+  name: Ultramarines
+  banner: /assets/banners/ultramarines.svg
+  overlay_filter: 0.45
+
+heroquest:
+  name: HeroQuest
+  banner: /assets/banners/heroquest.svg
+  overlay_filter: 0.45
+
+terrain:
+  name: Terrain
+  banner: /assets/banners/terrain.svg
+  overlay_filter: 0.45
+
+chaos:
+  name: Chaos
+  banner: /assets/banners/chaos.svg
+  overlay_filter: 0.45
+
+general:
+  name: Techniques
+  banner: /assets/banners/general.svg
+  overlay_filter: 0.45
