@@ -47,3 +47,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - scripts/
+  - _data/imported_progress.json

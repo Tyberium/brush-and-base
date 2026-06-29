@@ -34,3 +34,8 @@ general:
   name: Techniques
   banner: /assets/banners/general.svg
   overlay_filter: 0.45
+
+necromunda:
+  name: Necromunda
+  banner: /assets/banners/necromunda.svg
+  overlay_filter: 0.45

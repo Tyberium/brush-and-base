@@ -1,19 +1,19 @@
 ---
+layout: entry
 title: Red Corsairs Bladeguard Captain
 faction: red_corsairs
 progress:
   - photo: /assets/photos/red_corsairs_captain_11062026.jpg
     note: Finished model
 ---
-
 ## Transcription
 
 ### Red armour
 
 - Prime grey; red on sides over black
 - White ink zenithal
-- Cover in dark red — Mephiston Red
-- Or possible red/brown — Doombull Brown (?)
+- Cover in dark red Ã¢â‚¬â€ Mephiston Red
+- Or possible red/brown Ã¢â‚¬â€ Doombull Brown (?)
 - Zenithal mid red from sides & top (warm red)
 - Then 50/50 warm red + Legendary Red from top
 - Black line
@@ -47,8 +47,8 @@ progress:
 
 ## Notes
 
-- Faust Blue and Legendary Red — Two Thin Coats
-- Strong Tone / Strong Skin Shade — Army Painter washes
+- Faust Blue and Legendary Red Ã¢â‚¬â€ Two Thin Coats
+- Strong Tone / Strong Skin Shade Ã¢â‚¬â€ Army Painter washes
 - Plasma pistol OSL (light blue glow on armour)
 - Green lens glow
 - Storm shield with blue glow lines and gold skull

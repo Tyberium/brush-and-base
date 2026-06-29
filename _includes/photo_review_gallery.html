@@ -1,0 +1,8 @@
+<div class="photo-review-grid">
+  {% for item in site.data.photo_review.photos %}
+    <figure class="photo-review-item">
+      <img src="{{ item.photo | relative_url }}" alt="{{ item.note }}" loading="lazy">
+      <figcaption>{{ item.note }}</figcaption>
+    </figure>
+  {% endfor %}
+</div>

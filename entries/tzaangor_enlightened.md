@@ -1,18 +1,44 @@
 ---
+layout: entry
 title: Tzaangor Enlightened
 faction: thousand_sons
 progress:
+  - photo: /assets/photos/tzaangor_enlightened_23022023.jpg
+    note: WIP base coats on painting handle
+  - photo: /assets/photos/tzaangor_enlightened_22012024.jpg
+    note: Four Tzaangors plus Exalted Sorcerer
+  - photo: /assets/photos/tzaangor_enlightened_24012024.jpg
+    note: Finished Tzaangor on red base
+  - photo: /assets/photos/tzaangor_enlightened_07092025.jpg
+    note: Zenithal prime Greatbow Tzaangor
+  - photo: /assets/photos/tzaangor_enlightened_23012026.jpg
+    note: Zenithal prime on Disc of Tzeentch
+  - photo: /assets/photos/tzaangor_enlightened_20022026.jpg
+    note: Two Tzaangors on discs WIP
+  - photo: /assets/photos/tzaangor_enlightened_26022026.jpg
+    note: Three Tzaangors desk progress
+  - photo: /assets/photos/tzaangor_enlightened_04032026_01.jpg
+    note: Greatbow Tzaangor blue and gold
+  - photo: /assets/photos/tzaangor_enlightened_04032026_02.jpg
+    note: Spear Tzaangor side profile
+  - photo: /assets/photos/tzaangor_enlightened_24032026.jpg
+    note: Front view blue and gold armour
+  - photo: /assets/photos/tzaangor_enlightened_31032026_01.jpg
+    note: Torso WIP arms not attached
+  - photo: /assets/photos/tzaangor_enlightened_31032026_02.jpg
+    note: Dynamic pose feather tabard
+  - photo: /assets/photos/tzaangor_enlightened_24042026.jpg
+    note: Three finished Tzaangors on discs
   - photo: /assets/photos/tzaangor_enlightened_08052026.jpg
     note: Finished model
 ---
-
 ## Transcription
 
 ### General / warp
 
 - Black primer
-- Warp fire — Stegadon Scale Green
-- Jade — Vallejo Moot Green (?)
+- Warp fire Ã¢â‚¬â€ Stegadon Scale Green
+- Jade Ã¢â‚¬â€ Vallejo Moot Green (?)
 - Warped Yellow
 
 ### Gold
@@ -52,4 +78,4 @@ progress:
 - TSons Blue = Thousand Sons / Citadel TSons paint
 - "Stegagon" in the diary = Stegadon Scale Green
 - "Ulthua" = Ulthuan Grey
-- Question marks preserved from the diary — steps the painter was still deciding on
+- Question marks preserved from the diary Ã¢â‚¬â€ steps the painter was still deciding on
