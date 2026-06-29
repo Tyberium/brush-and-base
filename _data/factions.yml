@@ -10,6 +10,16 @@ red_corsairs:
   banner: /assets/banners/red_corsairs.svg
   overlay_filter: 0.45
 
+chaos_daemons:
+  name: Chaos Daemons
+  banner: /assets/banners/chaos_daemons.svg
+  overlay_filter: 0.45
+
+black_legion:
+  name: Black Legion
+  banner: /assets/banners/black_legion.svg
+  overlay_filter: 0.45
+
 ultramarines:
   name: Ultramarines
   banner: /assets/banners/ultramarines.svg

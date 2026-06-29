@@ -1,11 +1,15 @@
 main:
   - title: Home
     url: /
-  - title: Ahriman
-    url: /entries/ahriman/
-  - title: Magnus
-    url: /entries/magnus/
-  - title: Tzaangor
-    url: /entries/tzaangor_enlightened/
+  - title: Thousand Sons
+    url: /factions/thousand_sons/
+  - title: Chaos Daemons
+    url: /factions/chaos_daemons/
   - title: Red Corsairs
-    url: /entries/red_corsairs_captain/
+    url: /factions/red_corsairs/
+  - title: Black Legion
+    url: /factions/black_legion/
+  - title: HeroQuest
+    url: /factions/heroquest/
+  - title: Necromunda
+    url: /factions/necromunda/
