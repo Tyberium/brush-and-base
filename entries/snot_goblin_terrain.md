@@ -28,3 +28,8 @@ progress:
 - Smokey Ink Ã¢â‚¬â€ Vallejo Game Ink
 - **Thinner naming:** Dave keeps three separate products Ã¢â‚¬â€ Airbrush Medium (often called "thinner" informally), Airbrush Thinner, and Airbrush Flow Aid. See [Airbrush priming]({{ '/entries/airbrush_priming/' | relative_url }}) for the full primer mix.
 - *No model photo yet Ã¢â‚¬â€ recipe only*
+
+
+- New reciepy - more simplies
+- White Primer / or palid witchflesh dry brush (heavy) over black
+- Army Painter Palid Bone with a drop of contrast medium over the walls
