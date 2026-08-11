@@ -96,6 +96,9 @@ $items = @(
   @{ o = "IMG_20260424_080023752_HDR.jpg"; s = "tzaangor_enlightened"; n = "Three finished Tzaangors on discs" }
   @{ o = "IMG_20260509_131018940_HDR.jpg"; s = "exalted_sorcerer"; n = "Back view on Disc of Tzeentch" }
   @{ o = "IMG_20260607_210600143.jpg"; s = "wip_chaos_marine"; n = "Black-primed assembly" }
+  @{ o = "IMG_20260810_084945174.jpg"; s = "snot_goblin_terrain"; n = "Wall terrain batch on painting handle" }
+  @{ o = "IMG_20260810_084950727.jpg"; s = "snot_goblin_terrain"; n = "Pallid Bone batch airbrush pass on walls" }
+  @{ o = "IMG_20260810_084959068.jpg"; s = "snot_goblin_terrain"; n = "Coated wall batch drying" }
 )
 
 function Get-DateFromOriginal($name) {
