@@ -4,9 +4,9 @@ title: Snot Goblin Terrain
 faction: terrain
 progress:
   - photo: /assets/photos/snot_goblin_terrain_31122024.jpg
-    note: Snot goblin figure WIP in handle
+    note: Snot Goblin Gaming goblin mini - WIP in handle (not HeroQuest)
   - photo: /assets/photos/snot_goblin_terrain_10082026_01.jpg
-    note: Wall terrain batch on painting handle
+    note: FutureProof wall and floor tiles on table
   - photo: /assets/photos/snot_goblin_terrain_10082026_02.jpg
     note: Pallid Bone batch airbrush pass on walls
   - photo: /assets/photos/snot_goblin_terrain_10082026_03.jpg
@@ -14,20 +14,24 @@ progress:
 ---
 # Snot Goblin Terrain
 
+[FutureProof modular terrain](https://futureproofterrain.com/) by **Snot Goblin Gaming** - walls, floors, poles, and the rest of the clip-together set. Not HeroQuest; hex-base remake minis live under [HeroQuest Orc]({{ '/entries/heroquest_orc/' | relative_url }}) and [HeroQuest Heroes]({{ '/entries/heroquest_heroes/' | relative_url }}).
+
+The goblin mini in progress here is from the same Snot Goblin project (round base, orange hood sculpt) - easy to confuse with HeroQuest at a glance, but it is a different product line.
+
 ## Transcription
 
-### Poles
+### Poles (terrain)
 
 - Brass Scorpion
 
-### Airbrush mix (drops) - figure in handle
+### Airbrush mix (drops) - Snot Goblin goblin mini
 
 - 2x Pallid Bone
 - 2x Strong Skin Shade
 - 2x drops airbrush thinner - diary reads "Airbrush Thinner" on one photo, "Flowy Thinner" on the other
 - 1x Smokey Ink
 
-### Walls batch airbrush mix (drops)
+### Walls batch airbrush mix (drops) - FutureProof terrain
 
 - 15x Pallid Bone
 - 2x Strong Skin Tone

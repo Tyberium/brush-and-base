@@ -43,14 +43,14 @@ $items = @(
   @{ o = "IMG_20240615_144519533_BURST000_COVER.jpg"; s = "mutalith_vortex_beast"; n = "Grey primer on cutting mat" }
   @{ o = "IMG_20241019_220617601.jpg"; s = "exalted_sorcerer"; n = "Sorcerer on red base in handle" }
   @{ o = "IMG_20241024_131456961_HDR.jpg"; s = "exalted_sorcerer"; n = "Two sorcerers on discs - partial vs gold coat" }
-  @{ o = "IMG_20241129_154053006.jpg"; s = "airbrush_priming"; n = "Goblin airbrush coated lime green" }
+  @{ o = "IMG_20241129_154053006.jpg"; s = "airbrush_priming"; n = "Snot Goblin Gaming goblin mini - lime green base coat (FutureProof, not HeroQuest)" }
   @{ o = "IMG_20241223_222234874.jpg"; s = "review"; n = "HeroQuest Barbarian" }
   @{ o = "IMG_20241223_222240825_BURST000_COVER.jpg"; s = "review"; n = "HeroQuest Wizard" }
   @{ o = "IMG_20241223_222248118_BURST000_COVER.jpg"; s = "review"; n = "Silver elf warrior - not HeroQuest orc" }
   @{ o = "IMG_20241223_222300666.jpg"; s = "review"; n = "Orange-bearded dwarf warrior" }
   @{ o = "IMG_20241225_184828890_BURST000_COVER.jpg"; s = "review"; n = "Elven warrior in painting handle" }
   @{ o = "IMG_20241228_162037169.jpg"; s = "airbrush_priming"; n = "Exalted Sorcerer on Disc - zenithal highlight" }
-  @{ o = "IMG_20241231_215709108_HDR.jpg"; s = "snot_goblin_terrain"; n = "Snot goblin figure WIP in handle" }
+  @{ o = "IMG_20241231_215709108_HDR.jpg"; s = "snot_goblin_terrain"; n = "Snot Goblin Gaming goblin mini WIP in handle (not HeroQuest)" }
   @{ o = "IMG_20250101_214809545_HDR.jpg"; s = "review"; n = "HeroQuest Barbarian close-up" }
   @{ o = "IMG_20250101_220555146.jpg"; s = "review"; n = "HeroQuest Barbarian sword macro" }
   @{ o = "IMG_20250111_131317082_HDR.jpg"; s = "airbrush_priming"; n = "HeroQuest Barbarian brown primer" }
