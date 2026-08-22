@@ -1,4 +1,0 @@
-{% comment %}
-Entry pages for one faction. Uses layout+faction filters that work on Jekyll 3 / GH Pages.
-{% endcomment %}
-{% assign entries = site.pages | where: "layout", "entry" | where: "faction", include.faction | sort: "title" %}

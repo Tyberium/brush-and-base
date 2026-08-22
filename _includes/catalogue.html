@@ -1,5 +1,6 @@
 {% comment %}
 Homepage catalogue: System -> Faction -> Models
+Inline filters so jekyll-include-cache cannot reuse a stale entries assign.
 {% endcomment %}
 
 {% for system_pair in site.data.systems %}
@@ -8,8 +9,8 @@ Homepage catalogue: System -> Faction -> Models
   {% assign system_has_entries = false %}
 
   {% for faction_key in system.factions %}
-    {% include assign_faction_entries.html faction=faction_key %}
-    {% if entries.size > 0 %}
+    {% assign check_entries = site.pages | where: "layout", "entry" | where: "faction", faction_key %}
+    {% if check_entries.size > 0 %}
       {% assign system_has_entries = true %}
     {% endif %}
   {% endfor %}
@@ -19,7 +20,7 @@ Homepage catalogue: System -> Faction -> Models
     <h2><a href="{{ system.url | relative_url }}">{{ system.name }}</a></h2>
     {% for faction_key in system.factions %}
       {% assign faction = site.data.factions[faction_key] %}
-      {% include assign_faction_entries.html faction=faction_key %}
+      {% assign entries = site.pages | where: "layout", "entry" | where: "faction", faction_key | sort: "title" %}
       {% if entries.size > 0 %}
       <section class="catalogue-faction">
         <h3><a href="{{ faction.url | relative_url }}">{{ faction.name }}</a></h3>

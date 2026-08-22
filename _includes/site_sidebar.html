@@ -13,8 +13,8 @@ Sidebar: System -> Faction -> Models
 
         {% assign system_entry_count = 0 %}
         {% for faction_key in system.factions %}
-          {% include assign_faction_entries.html faction=faction_key %}
-          {% assign system_entry_count = system_entry_count | plus: entries.size %}
+          {% assign check_entries = site.pages | where: "layout", "entry" | where: "faction", faction_key %}
+          {% assign system_entry_count = system_entry_count | plus: check_entries.size %}
         {% endfor %}
 
         {% if system_entry_count > 0 %}
@@ -23,7 +23,7 @@ Sidebar: System -> Faction -> Models
           <ul>
             {% for faction_key in system.factions %}
               {% assign faction = site.data.factions[faction_key] %}
-              {% include assign_faction_entries.html faction=faction_key %}
+              {% assign entries = site.pages | where: "layout", "entry" | where: "faction", faction_key | sort: "title" %}
               {% if entries.size > 0 %}
               <li>
                 {% if page.faction == faction_key %}

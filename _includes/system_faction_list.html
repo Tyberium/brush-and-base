@@ -8,7 +8,7 @@ List factions (and their entries) for one game system.
 
 {% for faction_key in system.factions %}
   {% assign faction = site.data.factions[faction_key] %}
-  {% include assign_faction_entries.html faction=faction_key %}
+  {% assign entries = site.pages | where: "layout", "entry" | where: "faction", faction_key | sort: "title" %}
   {% if entries.size > 0 %}
     {% assign listed = listed | plus: 1 %}
     <section class="catalogue-faction">

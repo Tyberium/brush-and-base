@@ -7,7 +7,7 @@
   {% endif %}
 {% endif %}
 
-{% include assign_faction_entries.html faction=faction %}
+{% assign entries = site.pages | where: "layout", "entry" | where: "faction", faction | sort: "title" %}
 
 {% if entries.size > 0 %}
 <ul class="faction-entry-list">

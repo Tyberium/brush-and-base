@@ -14,8 +14,7 @@ Category back-link: System + Faction + sibling models
       {% endif %}
       <a href="{{ faction.url | relative_url }}">{{ faction.name }}</a>
     </p>
-    {% include assign_faction_entries.html faction=page.faction %}
-    {% assign siblings = entries %}
+    {% assign siblings = site.pages | where: "layout", "entry" | where: "faction", page.faction | sort: "title" %}
     {% if siblings.size > 1 %}
     <ul class="entry-category-nav__siblings">
       {% for sibling in siblings %}
