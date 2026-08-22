@@ -9,7 +9,8 @@ List factions (and their entries) for one game system.
     {% assign order_num = pair[1].order | default: 999 | plus: 10000 %}
     {% assign order_pad = order_num | append: "" | slice: 1, 4 %}
     {% assign item = order_pad | append: "|" | append: pair[0] %}
-    {% assign ordered_factions = ordered_factions | push: item %}
+    {% assign item_arr = item | split: "@@@" %}
+    {% assign ordered_factions = ordered_factions | concat: item_arr %}
   {% endif %}
 {% endfor %}
 {% assign ordered_factions = ordered_factions | sort %}
@@ -18,7 +19,7 @@ List factions (and their entries) for one game system.
 {% for item in ordered_factions %}
   {% assign faction_key = item | split: "|" | last %}
   {% assign faction = site.data.factions[faction_key] %}
-  {% assign entries = site.pages | where_exp: "entry", "entry.path contains 'entries/' and entry.faction == faction_key" | sort: "title" %}
+  {% assign entries = site.pages | where: "layout", "entry" | where: "faction", faction_key | sort: "title" %}
   {% if entries.size > 0 %}
     {% assign listed = listed | plus: 1 %}
     <section class="catalogue-faction">

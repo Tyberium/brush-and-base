@@ -7,7 +7,7 @@
   {% endif %}
 {% endif %}
 
-{% assign entries = site.pages | where_exp: "entry", "entry.path contains 'entries/' and entry.faction == faction" | sort: "title" %}
+{% assign entries = site.pages | where: "layout", "entry" | where: "faction", faction | sort: "title" %}
 
 {% if entries.size > 0 %}
 <ul class="faction-entry-list">

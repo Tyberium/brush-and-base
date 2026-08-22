@@ -7,7 +7,8 @@ Sidebar: System -> Faction -> Models
   {% assign order_num = pair[1].order | default: 999 | plus: 10000 %}
   {% assign order_pad = order_num | append: "" | slice: 1, 4 %}
   {% assign item = order_pad | append: "|" | append: pair[0] %}
-  {% assign ordered_systems = ordered_systems | push: item %}
+  {% assign item_arr = item | split: "@@@" %}
+  {% assign ordered_systems = ordered_systems | concat: item_arr %}
 {% endfor %}
 {% assign ordered_systems = ordered_systems | sort %}
 
@@ -26,7 +27,8 @@ Sidebar: System -> Faction -> Models
             {% assign order_num = pair[1].order | default: 999 | plus: 10000 %}
             {% assign order_pad = order_num | append: "" | slice: 1, 4 %}
             {% assign item = order_pad | append: "|" | append: pair[0] %}
-            {% assign ordered_factions = ordered_factions | push: item %}
+            {% assign item_arr = item | split: "@@@" %}
+            {% assign ordered_factions = ordered_factions | concat: item_arr %}
           {% endif %}
         {% endfor %}
         {% assign ordered_factions = ordered_factions | sort %}
@@ -34,7 +36,7 @@ Sidebar: System -> Faction -> Models
         {% assign system_entry_count = 0 %}
         {% for item in ordered_factions %}
           {% assign faction_key = item | split: "|" | last %}
-          {% assign entries = site.pages | where_exp: "entry", "entry.path contains 'entries/' and entry.faction == faction_key" %}
+          {% assign entries = site.pages | where: "layout", "entry" | where: "faction", faction_key %}
           {% assign system_entry_count = system_entry_count | plus: entries.size %}
         {% endfor %}
 
@@ -45,10 +47,10 @@ Sidebar: System -> Faction -> Models
             {% for item in ordered_factions %}
               {% assign faction_key = item | split: "|" | last %}
               {% assign faction = site.data.factions[faction_key] %}
-              {% assign entries = site.pages | where_exp: "entry", "entry.path contains 'entries/' and entry.faction == faction_key" | sort: "title" %}
+              {% assign entries = site.pages | where: "layout", "entry" | where: "faction", faction_key | sort: "title" %}
               {% if entries.size > 0 %}
               <li>
-                <a href="{{ faction.url | relative_url }}"{% if page.faction == faction_key and page.path contains 'factions/' %} class="active"{% endif %}>{{ faction.name }}</a>
+                <a href="{{ faction.url | relative_url }}"{% if page.faction == faction_key %} class="active"{% endif %}>{{ faction.name }}</a>
                 <ul>
                   {% for entry in entries %}
                   <li><a href="{{ entry.url | relative_url }}"{% if page.url == entry.url %} class="active"{% endif %}>{{ entry.title }}</a></li>
