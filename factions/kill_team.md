@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Black Legion
-faction: black_legion
+title: Kill Team
+faction: kill_team
 author_profile: false
 read_time: false
 share: false

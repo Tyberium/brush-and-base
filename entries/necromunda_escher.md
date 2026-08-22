@@ -2,6 +2,7 @@
 layout: entry
 title: Necromunda Escher
 faction: necromunda
+finished: /assets/photos/necromunda_escher_21122025_01.jpg
 progress:
   - photo: /assets/photos/necromunda_escher_19032023_01.jpg
     note: Rifle ganger on white handle

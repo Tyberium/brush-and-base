@@ -9,6 +9,7 @@ layout: default
 {% elsif page.header.video.id and page.header.video.provider %}
   {% include page__hero_video.html %}
 {% endif %}
+{% comment %}System pages use the normal page title below - no faction banner overlay.{% endcomment %}
 
 {% assign breadcrumbs_enabled = site.breadcrumbs %}
 {% if page.breadcrumbs != null %}
@@ -21,7 +22,7 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% include sidebar.html locale=locale %}
+  {% include site_sidebar.html %}
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -79,10 +80,8 @@ layout: default
     {% endif %}
   </article>
 
-  {% comment %}<!-- only show related on a post page when `layout: post` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     {% include page__related.html locale=locale posts=site.related_posts %}
-  {% comment %}<!-- otherwise show recent posts if no related when `layout: post` -->{% endcomment %}
   {% elsif page.id and page.related %}
     {% include page__related.html locale=locale posts=site.posts %}
   {% endif %}

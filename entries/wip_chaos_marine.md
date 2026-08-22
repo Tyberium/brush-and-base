@@ -1,14 +1,15 @@
 ---
 layout: entry
-title: WIP Ã¢â‚¬â€ Chaos Marine
+title: WIP - Chaos Marine
 faction: chaos
+finished: /assets/photos/wip_chaos_marine_07062026.jpg
 progress:
   - photo: /assets/photos/wip_chaos_marine_02112023.jpg
     note: Red Chaos Terminator on white base
   - photo: /assets/photos/wip_chaos_marine_07062026.jpg
     note: Black-primed assembly
 ---
-Unpainted / assembled Ã¢â‚¬â€ recipe to follow.
+Unpainted / assembled - recipe to follow.
 
 ## Notes
 

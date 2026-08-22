@@ -2,6 +2,7 @@
 layout: entry
 title: Tzaangor Enlightened
 faction: thousand_sons
+finished: /assets/photos/tzaangor_enlightened_08052026.jpg
 progress:
   - photo: /assets/photos/tzaangor_enlightened_23022023.jpg
     note: WIP base coats on painting handle
@@ -37,8 +38,8 @@ progress:
 ### General / warp
 
 - Black primer
-- Warp fire Ã¢â‚¬â€ Stegadon Scale Green
-- Jade Ã¢â‚¬â€ Vallejo Moot Green (?)
+- Warp fire - Stegadon Scale Green
+- Jade - Vallejo Moot Green (?)
 - Warped Yellow
 
 ### Gold
@@ -78,4 +79,4 @@ progress:
 - TSons Blue = Thousand Sons / Citadel TSons paint
 - "Stegagon" in the diary = Stegadon Scale Green
 - "Ulthua" = Ulthuan Grey
-- Question marks preserved from the diary Ã¢â‚¬â€ steps the painter was still deciding on
+- Question marks preserved from the diary - steps the painter was still deciding on

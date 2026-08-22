@@ -9,8 +9,6 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% include sidebar.html locale=locale %}
-
   <article
     class="page entry-page wide{% if page.classes %} {{ page.classes | join: ' ' }}{% endif %}"
     itemscope
@@ -25,21 +23,26 @@ layout: default
           {% include entry_progress.html %}
 
           <div class="entry-recipe">
+            {% include entry_category_nav.html %}
             {{ content }}
           </div>
         </div>
 
-        {% if page.progress and page.progress.size > 0 %}
-          {% assign finished_step = page.progress | last %}
-          {% if finished_step.photo %}
-            <figure class="entry-finished">
-              <img
-                src="{{ finished_step.photo | relative_url }}"
-                alt="Finished — {{ page.title }}"
-                loading="lazy">
-              <figcaption>Finished</figcaption>
-            </figure>
+        {% assign finished_photo = page.finished %}
+        {% unless finished_photo %}
+          {% if page.progress and page.progress.size > 0 %}
+            {% assign finished_step = page.progress | last %}
+            {% assign finished_photo = finished_step.photo %}
           {% endif %}
+        {% endunless %}
+        {% if finished_photo %}
+          <figure class="entry-finished">
+            <img
+              src="{{ finished_photo | relative_url }}"
+              alt="Finished - {{ page.title }}"
+              loading="lazy">
+            <figcaption>Finished</figcaption>
+          </figure>
         {% endif %}
       </section>
     </div>

@@ -2,42 +2,39 @@
 layout: entry
 title: Exalted Sorcerer
 faction: thousand_sons
+finished: /assets/photos/exalted_sorcerer_floating.jpg
 progress:
-  - photo: /assets/photos/exalted_sorcerer_08022024.jpg
-    note: Finished Exalted Sorcerer with warp sword
-  - photo: /assets/photos/exalted_sorcerer_11022024.jpg
-    note: WIP detail pass on blade OSL
-  - photo: /assets/photos/exalted_sorcerer_28022024.jpg
-    note: Force stave and sandy base
-  - photo: /assets/photos/exalted_sorcerer_19102024.jpg
-    note: Sorcerer on red base in handle
-  - photo: /assets/photos/exalted_sorcerer_24102024.jpg
-    note: Two sorcerers on discs - partial vs gold coat
+  - photo: /assets/photos/exalted_sorcerer_replacement_24102024.jpg
+    note: Replacement sorcerer after the dog ate an arm
+  - photo: /assets/photos/exalted_sorcerer_after_dog_ate_his_arm_20052025.jpg
+    note: Striped headdress and silver staff
+  - photo: /assets/photos/exalted_sorcerer_back_pack.jpg
+    note: Backpack and rear detail
+  - photo: /assets/photos/exalted_sorcerer_cloak.jpg
+    note: Cloak close-up
+  - photo: /assets/photos/exalted_sorcerer_face_close.jpg
+    note: Face close-up
   - photo: /assets/photos/exalted_sorcerer_29042025.jpg
     note: Three sorcerers group shot
-  - photo: /assets/photos/exalted_sorcerer_20052025.jpg
-    note: Striped headdress and silver staff
-  - photo: /assets/photos/exalted_sorcerer_23052025.jpg
-    note: Horned helmet warpflame cosmic base
-  - photo: /assets/photos/exalted_sorcerer_09052026.jpg
-    note: Back view on Disc of Tzeentch
+  - photo: /assets/photos/exalted_sorcerer_floating.jpg
+    note: Finished on Disc of Tzeentch
 ---
 # Exalted Sorcerer
 
-Two diary pages for the same model Ã¢â‚¬â€ Dave spelling on page 1.
+Two diary pages for the same model - Dave spelling on page 1.
 
-## Page 1 Ã¢â‚¬â€ "Estraubos Scourge"
+## Page 1 - "Estraubos Scourge"
 
 Dave spelling for **Exalted Sorcerer**.
 
-- **Skin Ã¢â‚¬â€ base:** Dark Purple
+- **Skin - base:** Dark Purple
 - **HL:** Genestealer Purple
 - **HL:** Genestealer Purple with some Pallid Wych Flesh
 - **HL:** 70.918 (Vallejo Model Color Ivory)
 
-## Page 2 Ã¢â‚¬â€ "Exhalted Sorceror"
+## Page 2 - "Exhalted Sorceror"
 
-- **Skin Ã¢â‚¬â€ base:** Dark Purple
+- **Skin - base:** Dark Purple
 - **HL:** Genestealer Purple
 - **HL:** Genestealer Purple / Pallid Wych Flesh mix
 - **DHL:** Pallid Wych Flesh dots
@@ -46,4 +43,3 @@ Dave spelling for **Exalted Sorcerer**.
 
 - HL = highlight; DHL = dot highlight
 - "Gene/Palid Witch" in the diary = Genestealer Purple + Pallid Wych Flesh
-- *No model photo yet Ã¢â‚¬â€ recipe only*

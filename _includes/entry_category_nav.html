@@ -1,0 +1,29 @@
+{% comment %}
+Category back-link: System + Faction + sibling models
+{% endcomment %}
+
+{% if page.faction %}
+  {% assign faction = site.data.factions[page.faction] %}
+  {% if faction %}
+    {% assign system = site.data.systems[faction.system] %}
+  <nav class="entry-category-nav" aria-label="Category">
+    <p class="entry-category-nav__label">
+      {% if system %}
+      <a href="{{ system.url | relative_url }}">{{ system.name }}</a>
+      <span aria-hidden="true"> / </span>
+      {% endif %}
+      <a href="{{ faction.url | relative_url }}">{{ faction.name }}</a>
+    </p>
+    {% assign siblings = site.pages | where_exp: "entry", "entry.path contains 'entries/' and entry.faction == page.faction" | sort: "title" %}
+    {% if siblings.size > 1 %}
+    <ul class="entry-category-nav__siblings">
+      {% for sibling in siblings %}
+        {% unless sibling.url == page.url %}
+        <li><a href="{{ sibling.url | relative_url }}">{{ sibling.title }}</a></li>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </nav>
+  {% endif %}
+{% endif %}

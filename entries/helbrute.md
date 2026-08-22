@@ -2,6 +2,7 @@
 layout: entry
 title: Helbrute
 faction: thousand_sons
+finished: /assets/photos/helbrute_02112023_01.jpg
 progress:
   - photo: /assets/photos/helbrute_17102023_01.jpg
     note: Front view - teal armour and pink flesh

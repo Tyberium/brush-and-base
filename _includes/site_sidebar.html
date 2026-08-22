@@ -1,0 +1,66 @@
+{% comment %}
+Sidebar: System -> Faction -> Models
+{% endcomment %}
+
+{% assign ordered_systems = "" | split: "" %}
+{% for pair in site.data.systems %}
+  {% assign order_num = pair[1].order | default: 999 | plus: 10000 %}
+  {% assign order_pad = order_num | append: "" | slice: 1, 4 %}
+  {% assign item = order_pad | append: "|" | append: pair[0] %}
+  {% assign ordered_systems = ordered_systems | push: item %}
+{% endfor %}
+{% assign ordered_systems = ordered_systems | sort %}
+
+<div class="sidebar sticky">
+  <nav class="nav__list" aria-label="Browse by system">
+    <input id="ac-toc" name="accordion-toc" type="checkbox" />
+    <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</label>
+    <ul class="nav__items">
+      {% for sys_item in ordered_systems %}
+        {% assign system_key = sys_item | split: "|" | last %}
+        {% assign system = site.data.systems[system_key] %}
+
+        {% assign ordered_factions = "" | split: "" %}
+        {% for pair in site.data.factions %}
+          {% if pair[1].system == system_key %}
+            {% assign order_num = pair[1].order | default: 999 | plus: 10000 %}
+            {% assign order_pad = order_num | append: "" | slice: 1, 4 %}
+            {% assign item = order_pad | append: "|" | append: pair[0] %}
+            {% assign ordered_factions = ordered_factions | push: item %}
+          {% endif %}
+        {% endfor %}
+        {% assign ordered_factions = ordered_factions | sort %}
+
+        {% assign system_entry_count = 0 %}
+        {% for item in ordered_factions %}
+          {% assign faction_key = item | split: "|" | last %}
+          {% assign entries = site.pages | where_exp: "entry", "entry.path contains 'entries/' and entry.faction == faction_key" %}
+          {% assign system_entry_count = system_entry_count | plus: entries.size %}
+        {% endfor %}
+
+        {% if system_entry_count > 0 %}
+        <li>
+          <span class="nav__sub-title"><a href="{{ system.url | relative_url }}">{{ system.name }}</a></span>
+          <ul>
+            {% for item in ordered_factions %}
+              {% assign faction_key = item | split: "|" | last %}
+              {% assign faction = site.data.factions[faction_key] %}
+              {% assign entries = site.pages | where_exp: "entry", "entry.path contains 'entries/' and entry.faction == faction_key" | sort: "title" %}
+              {% if entries.size > 0 %}
+              <li>
+                <a href="{{ faction.url | relative_url }}"{% if page.faction == faction_key and page.path contains 'factions/' %} class="active"{% endif %}>{{ faction.name }}</a>
+                <ul>
+                  {% for entry in entries %}
+                  <li><a href="{{ entry.url | relative_url }}"{% if page.url == entry.url %} class="active"{% endif %}>{{ entry.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</div>

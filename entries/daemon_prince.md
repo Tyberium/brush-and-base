@@ -2,6 +2,7 @@
 layout: entry
 title: Daemon Prince
 faction: thousand_sons
+finished: /assets/photos/daemon_prince_24042025_01.jpg
 progress:
   - photo: /assets/photos/daemon_prince_30052024_01.jpg
     note: Side view on desk - turquoise skin and purple wings

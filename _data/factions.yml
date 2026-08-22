@@ -1,51 +1,83 @@
-# Faction banners — replace SVG placeholders in assets/banners/ with art when ready.
+# Faction / project lexicon.
+# Entries set `faction:` to one of these keys.
+# `system:` must match a key in systems.yml.
 
 thousand_sons:
   name: Thousand Sons
+  system: warhammer_40000
   banner: /assets/banners/thousand_sons.svg
   overlay_filter: 0.45
+  url: /factions/thousand_sons/
+  order: 10
 
 red_corsairs:
   name: Red Corsairs
+  system: warhammer_40000
   banner: /assets/banners/red_corsairs.svg
   overlay_filter: 0.45
-
-chaos_daemons:
-  name: Chaos Daemons
-  banner: /assets/banners/chaos_daemons.svg
-  overlay_filter: 0.45
-
-black_legion:
-  name: Black Legion
-  banner: /assets/banners/black_legion.svg
-  overlay_filter: 0.45
+  url: /factions/red_corsairs/
+  order: 20
 
 ultramarines:
   name: Ultramarines
+  system: warhammer_40000
   banner: /assets/banners/ultramarines.svg
   overlay_filter: 0.45
-
-heroquest:
-  name: HeroQuest
-  banner: /assets/banners/heroquest.svg
-  overlay_filter: 0.45
-
-terrain:
-  name: Terrain
-  banner: /assets/banners/terrain.svg
-  overlay_filter: 0.45
+  url: /factions/ultramarines/
+  order: 30
 
 chaos:
   name: Chaos
+  system: warhammer_40000
   banner: /assets/banners/chaos.svg
   overlay_filter: 0.45
+  url: /factions/chaos/
+  order: 40
 
-general:
-  name: Techniques
-  banner: /assets/banners/general.svg
+kill_team:
+  name: Kill Team
+  system: kill_team
+  banner: /assets/banners/kill_team.svg
   overlay_filter: 0.45
+  url: /factions/kill_team/
+  order: 10
 
 necromunda:
   name: Necromunda
+  system: necromunda
   banner: /assets/banners/necromunda.svg
   overlay_filter: 0.45
+  url: /factions/necromunda/
+  order: 10
+
+heroquest:
+  name: HeroQuest
+  system: heroquest
+  banner: /assets/banners/heroquest.svg
+  overlay_filter: 0.45
+  url: /factions/heroquest/
+  order: 10
+
+dnd:
+  name: D&D
+  system: dnd
+  banner: /assets/banners/dnd.svg
+  overlay_filter: 0.45
+  url: /factions/dnd/
+  order: 10
+
+terrain:
+  name: Terrain
+  system: general
+  banner: /assets/banners/terrain.svg
+  overlay_filter: 0.45
+  url: /factions/terrain/
+  order: 10
+
+general:
+  name: Techniques
+  system: general
+  banner: /assets/banners/general.svg
+  overlay_filter: 0.45
+  url: /factions/general/
+  order: 20

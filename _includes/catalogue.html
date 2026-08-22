@@ -1,0 +1,55 @@
+{% comment %}
+Homepage catalogue: System -> Faction -> Models
+{% endcomment %}
+
+{% assign ordered_systems = "" | split: "" %}
+{% for pair in site.data.systems %}
+  {% assign order_num = pair[1].order | default: 999 | plus: 10000 %}
+  {% assign order_pad = order_num | append: "" | slice: 1, 4 %}
+  {% assign item = order_pad | append: "|" | append: pair[0] %}
+  {% assign ordered_systems = ordered_systems | push: item %}
+{% endfor %}
+{% assign ordered_systems = ordered_systems | sort %}
+
+{% for sys_item in ordered_systems %}
+  {% assign system_key = sys_item | split: "|" | last %}
+  {% assign system = site.data.systems[system_key] %}
+
+  {% assign ordered_factions = "" | split: "" %}
+  {% for pair in site.data.factions %}
+    {% if pair[1].system == system_key %}
+      {% assign order_num = pair[1].order | default: 999 | plus: 10000 %}
+      {% assign order_pad = order_num | append: "" | slice: 1, 4 %}
+      {% assign item = order_pad | append: "|" | append: pair[0] %}
+      {% assign ordered_factions = ordered_factions | push: item %}
+    {% endif %}
+  {% endfor %}
+  {% assign ordered_factions = ordered_factions | sort %}
+
+  {% assign system_blocks = "" %}
+  {% capture system_blocks %}
+    {% for item in ordered_factions %}
+      {% assign faction_key = item | split: "|" | last %}
+      {% assign faction = site.data.factions[faction_key] %}
+      {% assign entries = site.pages | where_exp: "entry", "entry.path contains 'entries/' and entry.faction == faction_key" | sort: "title" %}
+      {% if entries.size > 0 %}
+      <section class="catalogue-faction">
+        <h3><a href="{{ faction.url | relative_url }}">{{ faction.name }}</a></h3>
+        <ul class="faction-entry-list">
+          {% for entry in entries %}
+          <li><a href="{{ entry.url | relative_url }}">{{ entry.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endif %}
+    {% endfor %}
+  {% endcapture %}
+
+  {% assign trimmed = system_blocks | strip %}
+  {% if trimmed != "" %}
+  <section class="catalogue-system">
+    <h2><a href="{{ system.url | relative_url }}">{{ system.name }}</a></h2>
+    {{ system_blocks }}
+  </section>
+  {% endif %}
+{% endfor %}

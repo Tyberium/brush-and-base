@@ -2,6 +2,7 @@
 layout: entry
 title: Red Corsairs Bladeguard Captain
 faction: red_corsairs
+finished: /assets/photos/red_corsairs_captain_11062026.jpg
 progress:
   - photo: /assets/photos/red_corsairs_captain_11062026.jpg
     note: Finished model

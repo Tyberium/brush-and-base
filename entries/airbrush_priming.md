@@ -2,6 +2,7 @@
 layout: entry
 title: Airbrush priming
 faction: general
+finished: /assets/photos/airbrush_priming_11012025.jpg
 progress:
   - photo: /assets/photos/airbrush_priming_29112024.jpg
     note: Snot Goblin Gaming goblin mini - lime green base coat (FutureProof project, not HeroQuest)
@@ -16,14 +17,14 @@ progress:
 
 - **Primer:** Vallejo Black Primer
 - **Mix (drops):**
-  - 2Ãƒâ€” thinner
-  - 1Ãƒâ€” flow improver
-  - 9Ãƒâ€” primer
+  - 2x thinner
+  - 1x flow improver
+  - 9x primer
 - **Airbrush:** Badger 360, silver needle
 - **Pressure:** 23 PSI
-- **Distance:** 1Ã¢â‚¬â€œ2 inches
+- **Distance:** 1-2 inches
 
 ## Notes
 
-- Thinner / flow improver = the three-product setup (Medium, Thinner, Flow Aid) Ã¢â‚¬â€ see [Snot Goblin Terrain]({{ '/entries/snot_goblin_terrain/' | relative_url }}) notes
-- Diary scan kept offline Ã¢â‚¬â€ recipe transcribed here only
+- Thinner / flow improver = the three-product setup (Medium, Thinner, Flow Aid) - see [Snot Goblin Terrain]({{ '/entries/snot_goblin_terrain/' | relative_url }}) notes
+- Diary scan kept offline - recipe transcribed here only

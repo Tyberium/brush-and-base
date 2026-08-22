@@ -47,6 +47,9 @@ $slugToFaction = @{
   chaos_knight = "chaos"
   necromunda_escher = "necromunda"
   exalted_sorcerer = "thousand_sons"
+  aspiring_sorcerer = "thousand_sons"
+  infernal_master = "thousand_sons"
+  chaos_spawn = "thousand_sons"
   ahriman = "thousand_sons"
   tzaangor_enlightened = "thousand_sons"
   rubric_marine = "thousand_sons"
@@ -56,6 +59,8 @@ $slugToFaction = @{
   red_corsairs_captain = "red_corsairs"
   wip_chaos_marine = "chaos"
   airbrush_priming = "general"
+  kill_team_kommandos = "kill_team"
+  dnd_paladin = "dnd"
 }
 
 Get-ChildItem $entriesDir -Filter "*.md" | ForEach-Object {

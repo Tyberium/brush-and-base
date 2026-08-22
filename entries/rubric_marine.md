@@ -2,6 +2,7 @@
 layout: entry
 title: Rubric Marine
 faction: thousand_sons
+finished: /assets/photos/rubric_marine_28022025.jpg
 progress:
   - photo: /assets/photos/rubric_marine_12022022.jpg
     note: Gold spray prime on assembled rubrics

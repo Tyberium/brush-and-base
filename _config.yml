@@ -7,9 +7,6 @@ baseurl: /brush-and-base
 remote_theme: mmistakes/minimal-mistakes@4.28.0
 minimal_mistakes_skin: dark
 
-masthead:
-  nav: true
-
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache

@@ -2,9 +2,8 @@
 layout: entry
 title: Mutalith Vortex Beast
 faction: thousand_sons
+finished: /assets/photos/mutalith_vortex_beast_26122025.jpg
 progress:
-  - photo: /assets/photos/mutalith_vortex_beast_15062024.jpg
-    note: Grey primer on cutting mat
   - photo: /assets/photos/mutalith_vortex_beast_18012025.jpg
     note: Airbrushing vortex ring glow
   - photo: /assets/photos/mutalith_vortex_beast_20012025.jpg
@@ -39,4 +38,4 @@ Handwritten title: **Matalith**
 
 ## Notes
 
-- *No model photo yet Ã¢â‚¬â€ recipe only*
+- Primed grey stage photo moved to the Chaos Spawn entry after relabel

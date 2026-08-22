@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Chaos Daemons
-faction: chaos_daemons
+title: Chaos
+faction: chaos
 author_profile: false
 read_time: false
 share: false

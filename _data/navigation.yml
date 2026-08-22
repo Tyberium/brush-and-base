@@ -1,15 +1,18 @@
+# Top masthead = game systems only (MM has no dropdowns).
+# Keep in sync with systems that have nav: true in systems.yml.
+
 main:
   - title: Home
     url: /
-  - title: Thousand Sons
-    url: /factions/thousand_sons/
-  - title: Chaos Daemons
-    url: /factions/chaos_daemons/
-  - title: Red Corsairs
-    url: /factions/red_corsairs/
-  - title: Black Legion
-    url: /factions/black_legion/
-  - title: HeroQuest
-    url: /factions/heroquest/
+  - title: Warhammer 40,000
+    url: /systems/warhammer_40000/
+  - title: Kill Team
+    url: /systems/kill_team/
   - title: Necromunda
-    url: /factions/necromunda/
+    url: /systems/necromunda/
+  - title: HeroQuest
+    url: /systems/heroquest/
+  - title: D&D
+    url: /systems/dnd/
+  - title: General
+    url: /systems/general/

@@ -2,6 +2,7 @@
 layout: entry
 title: Scarab Occult Terminators
 faction: thousand_sons
+finished: /assets/photos/scarab_occult_terminators_16072025.jpg
 progress:
   - photo: /assets/photos/scarab_occult_terminators_14062022.jpg
     note: Bare plastic assembly
@@ -24,7 +25,7 @@ progress:
 
 ### Gold
 
-- RLB *(likely Runelord Brass Ã¢â‚¬â€ confirm with Dave)*
+- RLB *(likely Runelord Brass - confirm with Dave)*
 - HL Canoptek Alloy
 
 ### Yellow
@@ -35,4 +36,3 @@ progress:
 ## Notes
 
 - HL = highlight
-- *No model photo yet Ã¢â‚¬â€ recipe only*

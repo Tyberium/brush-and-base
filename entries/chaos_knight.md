@@ -2,6 +2,7 @@
 layout: entry
 title: Chaos Knight
 faction: chaos
+finished: /assets/photos/chaos_knight_27012024_01.jpg
 progress:
   - photo: /assets/photos/chaos_knight_27012024_01.jpg
     note: Black-primed Knight with Tzaangor for scale

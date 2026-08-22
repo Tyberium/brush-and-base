@@ -1,0 +1,37 @@
+{% comment %}
+List factions (and their entries) for one game system.
+{% endcomment %}
+
+{% assign system_key = include.system %}
+{% assign ordered_factions = "" | split: "" %}
+{% for pair in site.data.factions %}
+  {% if pair[1].system == system_key %}
+    {% assign order_num = pair[1].order | default: 999 | plus: 10000 %}
+    {% assign order_pad = order_num | append: "" | slice: 1, 4 %}
+    {% assign item = order_pad | append: "|" | append: pair[0] %}
+    {% assign ordered_factions = ordered_factions | push: item %}
+  {% endif %}
+{% endfor %}
+{% assign ordered_factions = ordered_factions | sort %}
+
+{% assign listed = 0 %}
+{% for item in ordered_factions %}
+  {% assign faction_key = item | split: "|" | last %}
+  {% assign faction = site.data.factions[faction_key] %}
+  {% assign entries = site.pages | where_exp: "entry", "entry.path contains 'entries/' and entry.faction == faction_key" | sort: "title" %}
+  {% if entries.size > 0 %}
+    {% assign listed = listed | plus: 1 %}
+    <section class="catalogue-faction">
+      <h2><a href="{{ faction.url | relative_url }}">{{ faction.name }}</a></h2>
+      <ul class="faction-entry-list">
+        {% for entry in entries %}
+        <li><a href="{{ entry.url | relative_url }}">{{ entry.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+{% endfor %}
+
+{% if listed == 0 %}
+<p><em>No entries yet.</em></p>
+{% endif %}

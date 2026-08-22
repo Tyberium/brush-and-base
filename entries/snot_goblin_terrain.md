@@ -2,6 +2,7 @@
 layout: entry
 title: Snot Goblin Terrain
 faction: terrain
+finished: /assets/photos/snot_goblin_terrain_10082026_03.jpg
 progress:
   - photo: /assets/photos/snot_goblin_terrain_31122024.jpg
     note: Snot Goblin Gaming goblin mini - WIP in handle (not HeroQuest)

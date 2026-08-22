@@ -1,4 +1,12 @@
 {% assign faction = include.faction %}
+{% assign faction_meta = site.data.factions[faction] %}
+{% if faction_meta and faction_meta.system %}
+  {% assign system = site.data.systems[faction_meta.system] %}
+  {% if system %}
+  <p class="entry-category-nav__label"><a href="{{ system.url | relative_url }}">{{ system.name }}</a></p>
+  {% endif %}
+{% endif %}
+
 {% assign entries = site.pages | where_exp: "entry", "entry.path contains 'entries/' and entry.faction == faction" | sort: "title" %}
 
 {% if entries.size > 0 %}
