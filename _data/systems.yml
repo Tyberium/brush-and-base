@@ -1,38 +1,48 @@
 # Game systems - top masthead is driven from here (`nav: true`).
-# Factions in factions.yml point at these keys via `system:`.
+# `factions:` lists faction keys from factions.yml in display order.
 
 warhammer_40000:
   name: Warhammer 40,000
   url: /systems/warhammer_40000/
   nav: true
-  order: 10
+  factions:
+    - thousand_sons
+    - red_corsairs
+    - ultramarines
+    - chaos
 
 kill_team:
   name: Kill Team
   url: /systems/kill_team/
   nav: true
-  order: 20
+  factions:
+    - kill_team
 
 necromunda:
   name: Necromunda
   url: /systems/necromunda/
   nav: true
-  order: 30
+  factions:
+    - necromunda
 
 heroquest:
   name: HeroQuest
   url: /systems/heroquest/
   nav: true
-  order: 40
+  factions:
+    - heroquest
 
 dnd:
   name: D&D
   url: /systems/dnd/
   nav: true
-  order: 50
+  factions:
+    - dnd
 
 general:
   name: General
   url: /systems/general/
   nav: true
-  order: 60
+  factions:
+    - terrain
+    - general

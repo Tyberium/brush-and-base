@@ -8,7 +8,6 @@ thousand_sons:
   banner: /assets/banners/thousand_sons.svg
   overlay_filter: 0.45
   url: /factions/thousand_sons/
-  order: 10
 
 red_corsairs:
   name: Red Corsairs
@@ -16,7 +15,6 @@ red_corsairs:
   banner: /assets/banners/red_corsairs.svg
   overlay_filter: 0.45
   url: /factions/red_corsairs/
-  order: 20
 
 ultramarines:
   name: Ultramarines
@@ -24,7 +22,6 @@ ultramarines:
   banner: /assets/banners/ultramarines.svg
   overlay_filter: 0.45
   url: /factions/ultramarines/
-  order: 30
 
 chaos:
   name: Chaos
@@ -32,7 +29,6 @@ chaos:
   banner: /assets/banners/chaos.svg
   overlay_filter: 0.45
   url: /factions/chaos/
-  order: 40
 
 kill_team:
   name: Kill Team
@@ -40,7 +36,6 @@ kill_team:
   banner: /assets/banners/kill_team.svg
   overlay_filter: 0.45
   url: /factions/kill_team/
-  order: 10
 
 necromunda:
   name: Necromunda
@@ -48,7 +43,6 @@ necromunda:
   banner: /assets/banners/necromunda.svg
   overlay_filter: 0.45
   url: /factions/necromunda/
-  order: 10
 
 heroquest:
   name: HeroQuest
@@ -56,7 +50,6 @@ heroquest:
   banner: /assets/banners/heroquest.svg
   overlay_filter: 0.45
   url: /factions/heroquest/
-  order: 10
 
 dnd:
   name: D&D
@@ -64,7 +57,6 @@ dnd:
   banner: /assets/banners/dnd.svg
   overlay_filter: 0.45
   url: /factions/dnd/
-  order: 10
 
 terrain:
   name: Terrain
@@ -72,7 +64,6 @@ terrain:
   banner: /assets/banners/terrain.svg
   overlay_filter: 0.45
   url: /factions/terrain/
-  order: 10
 
 general:
   name: Techniques
@@ -80,4 +71,3 @@ general:
   banner: /assets/banners/general.svg
   overlay_filter: 0.45
   url: /factions/general/
-  order: 20

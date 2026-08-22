@@ -1,6 +1,5 @@
 {% comment %}
 Category back-link: System + Faction + sibling models
-Jekyll 3 / GitHub Pages: no `and` / `contains` inside where_exp.
 {% endcomment %}
 
 {% if page.faction %}
@@ -15,7 +14,8 @@ Jekyll 3 / GitHub Pages: no `and` / `contains` inside where_exp.
       {% endif %}
       <a href="{{ faction.url | relative_url }}">{{ faction.name }}</a>
     </p>
-    {% assign siblings = site.pages | where: "layout", "entry" | where: "faction", page.faction | sort: "title" %}
+    {% include assign_faction_entries.html faction=page.faction %}
+    {% assign siblings = entries %}
     {% if siblings.size > 1 %}
     <ul class="entry-category-nav__siblings">
       {% for sibling in siblings %}
